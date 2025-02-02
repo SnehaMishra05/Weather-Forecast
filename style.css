@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+    background-color: rgb(156, 88, 219);
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(227, 97, 142);
+}
+
+input,
+button {
+    padding: 8px;
+    margin: 8px;
+}
+
+.dark-mode .container {
+    background-color: rgb(99, 95, 95);
+}
+
+#weather-info,
+#forecast {
+    margin-top: 20px;
+}
+
+.dark-mode {
+    background-color: rgb(46, 44, 44);
+}
